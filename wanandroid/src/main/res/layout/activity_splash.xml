@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@mipmap/splash_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/timmer_tv"
+        android:layout_alignParentRight="true"
+        android:singleLine="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/white"
+        android:background="@drawable/shape_splash_timer"
+        android:text="跳过"
+        android:textSize="15dp"
+        android:paddingLeft="25px"
+        android:paddingRight="25px"
+        android:paddingTop="5px"
+        android:paddingBottom="5px"
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/logo_igv"
+        android:layout_marginTop="200dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <ImageView
+        android:id="@+id/logo_tv"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/logo_igv"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/splash_appname"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="45dp" />
+
+    <TextView
+        android:layout_marginBottom="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/version_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="版本 V1.0"
+        android:textColor="@color/common_black_777"
+        android:textSize="14sp" />
+
+
+    <com.hanks.htextview.fall.FallTextView
+        android:layout_below="@+id/logo_tv"
+        android:id="@+id/anim_tv1"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="75dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/common_splash"
+        android:textSize="20sp"/>
+
+    <com.hanks.htextview.fall.FallTextView
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/anim_tv1"
+        android:id="@+id/anim_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical|right"
+        android:layout_marginRight="50dp"
+        android:textColor="@color/common_splash"
+        android:textSize="20dp"/>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

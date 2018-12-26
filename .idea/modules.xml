@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/arms/arms.iml" filepath="$PROJECT_DIR$/arms/arms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arms-autolayout/arms-autolayout.iml" filepath="$PROJECT_DIR$/arms-autolayout/arms-autolayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arms-imageloader-glide/arms-imageloader-glide.iml" filepath="$PROJECT_DIR$/arms-imageloader-glide/arms-imageloader-glide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wanandroid/wanandroid.iml" filepath="$PROJECT_DIR$/wanandroid/wanandroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wanandroidTest.iml" filepath="$PROJECT_DIR$/wanandroidTest.iml" />
+    </modules>
+  </component>
+</project>
